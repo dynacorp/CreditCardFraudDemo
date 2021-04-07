@@ -62,16 +62,16 @@ class _DrawerScreenState extends State<DrawerScreen>
       body: KFDrawer(
         borderRadius: 0.0,
         shadowBorderRadius: 0.0,
-        menuPadding: EdgeInsets.all(0.0),
+        menuPadding: EdgeInsets.symmetric(horizontal: 0.0, vertical: 10.0),
         scrollable: true,
         controller: _drawerController,
         header: Align(
           alignment: Alignment.centerLeft,
           child: Container(
-            padding: EdgeInsets.symmetric(horizontal: 16.0),
+            padding: EdgeInsets.symmetric(horizontal: 20.0),
             width: MediaQuery.of(context).size.width * 0.6,
             child: Image.asset(
-              'assets/images/logo.png',
+              'assets/images/lautechLogo.png',
               alignment: Alignment.centerLeft,
             ),
           ),

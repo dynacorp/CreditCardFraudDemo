@@ -117,7 +117,7 @@ class _HomePageState extends State<MyWallet> {
             color: LightColor.lightGrey,
             borderRadius: BorderRadius.all(Radius.circular(10)),
           ),
-          child: Text('-20 MLR',
+          child: Text('-20 NGN',
               style: GoogleFonts.muli(
                   fontSize: 12,
                   fontWeight: FontWeight.bold,
@@ -249,7 +249,7 @@ class BalanceCard extends StatelessWidget {
                               color: LightColor.yellow2),
                         ),
                         Text(
-                          ' MLR',
+                          ' NGN',
                           style: TextStyle(
                               fontSize: 35,
                               fontWeight: FontWeight.w500,
@@ -269,7 +269,7 @@ class BalanceCard extends StatelessWidget {
                               color: LightColor.lightNavyBlue),
                         ),
                         Text(
-                          ' \$10,000',
+                          ' \₦10,000',
                           style: TextStyle(
                               fontSize: 15,
                               fontWeight: FontWeight.w500,

@@ -166,7 +166,7 @@ class _MoneyTransferPageState extends State<MoneyTransferPage> {
                             borderRadius:
                                 BorderRadius.all(Radius.circular(15))),
                         child: TitleText(
-                          text: "\$10,000",
+                          text: "\₦10,000",
                           color: Colors.white,
                         )),
                     Expanded(

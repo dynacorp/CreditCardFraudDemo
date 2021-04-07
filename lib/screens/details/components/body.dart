@@ -53,7 +53,7 @@ class Body extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    '\$${product.price}',
+                    '\₦${product.price}',
                     style: TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.w600,

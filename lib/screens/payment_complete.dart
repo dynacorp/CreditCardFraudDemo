@@ -60,7 +60,7 @@ class _PaymentCompleteState extends State<PaymentComplete> {
                   subtitle: Row(
                     children: <Widget>[
                       TitleText(
-                        text: '\$ ',
+                        text: '\₦ ',
                         color: Color(0xFF035AA6),
                         fontSize: 12,
                       ),
@@ -100,7 +100,7 @@ class _PaymentCompleteState extends State<PaymentComplete> {
               fontWeight: FontWeight.w500,
             ),
             TitleText(
-              text: '\$${getPrice()}',
+              text: '\₦${getPrice()}',
               fontSize: 18,
             ),
           ],
@@ -111,7 +111,7 @@ class _PaymentCompleteState extends State<PaymentComplete> {
         TitleText(
           text: widget.isFraud
               ? 'Payment failed due to incorrect Customer, Account or Transaction Credentials'
-              : 'Payment successful, the products have been dispatched and will be delivered by 21/08/20',
+              : 'Payment successful, the products have been dispatched and will be delivered by 8/04/21',
           fontSize: 18,
         ),
       ],

@@ -61,7 +61,7 @@ class _ShoppingCartState extends State<ShoppingCart> {
                   subtitle: Row(
                     children: <Widget>[
                       TitleText(
-                        text: '\$ ',
+                        text: '\₦ ',
                         color: Color(0xFF035AA6),
                         fontSize: 12,
                       ),
@@ -99,7 +99,7 @@ class _ShoppingCartState extends State<ShoppingCart> {
           fontWeight: FontWeight.w500,
         ),
         TitleText(
-          text: '\$${getPrice()}',
+          text: '\₦${getPrice()}',
           fontSize: 18,
         ),
       ],
